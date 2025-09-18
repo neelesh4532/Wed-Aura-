@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>WedAura Prototype</title>
 
-  <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 
-  <!-- External Styles -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- NAV -->
+  <div id="intro-animation">
+    <div class="logo">WEDAURA</div>
+  </div>
+
   <nav>
     <div class="brand">WedAura <small class="brand-sub">Prototype</small></div>
     <div class="nav-links">
@@ -24,7 +25,6 @@
     </div>
   </nav>
 
-  <!-- HERO -->
   <header class="hero">
     <div class="hero-grid">
       <div class="hero-left">
@@ -39,9 +39,7 @@
     </div>
   </header>
 
-  <!-- MAIN -->
   <main>
-    <!-- Search -->
     <section id="search" class="card">
       <h2>Venue Search</h2>
       <div class="filters">
@@ -57,7 +55,6 @@
       </div>
     </section>
 
-    <!-- Designer -->
     <section id="designer" class="card">
       <h2>Card Designer</h2>
       <div class="designer-grid">
@@ -87,7 +84,6 @@
       </div>
     </section>
 
-    <!-- Orders -->
     <section id="orders" class="card">
       <h2>Multi-address Orders</h2>
       <div class="orders-grid">
@@ -112,7 +108,6 @@
       </div>
     </section>
 
-    <!-- Dashboard -->
     <section id="dashboard" class="card">
       <h2>Smart Dashboard</h2>
       <div class="kpi-row">
@@ -133,10 +128,8 @@
 
   <footer>WedAura Prototype • Local demo</footer>
 
-  <!-- Modal -->
   <div id="modalRoot" style="display:none"></div>
 
-  <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="app.js"></script>
 </body>
